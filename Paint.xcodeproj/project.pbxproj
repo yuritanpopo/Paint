@@ -21,6 +21,7 @@
 		074D2BEA189CCFA700AC24FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074D2BCC189CCFA700AC24FC /* UIKit.framework */; };
 		074D2BF2189CCFA700AC24FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 074D2BF0189CCFA700AC24FC /* InfoPlist.strings */; };
 		074D2BF4189CCFA700AC24FC /* PaintTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 074D2BF3189CCFA700AC24FC /* PaintTests.m */; };
+		074D2BFE189CD0E300AC24FC /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074D2BFD189CD0E300AC24FC /* Twitter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		074D2BEF189CCFA700AC24FC /* PaintTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PaintTests-Info.plist"; sourceTree = "<group>"; };
 		074D2BF1189CCFA700AC24FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		074D2BF3189CCFA700AC24FC /* PaintTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaintTests.m; sourceTree = "<group>"; };
+		074D2BFD189CD0E300AC24FC /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				074D2BFE189CD0E300AC24FC /* Twitter.framework in Frameworks */,
 				074D2BCB189CCFA700AC24FC /* CoreGraphics.framework in Frameworks */,
 				074D2BCD189CCFA700AC24FC /* UIKit.framework in Frameworks */,
 				074D2BC9189CCFA700AC24FC /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		074D2BC7189CCFA700AC24FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				074D2BFD189CD0E300AC24FC /* Twitter.framework */,
 				074D2BC8189CCFA700AC24FC /* Foundation.framework */,
 				074D2BCA189CCFA700AC24FC /* CoreGraphics.framework */,
 				074D2BCC189CCFA700AC24FC /* UIKit.framework */,
