@@ -156,6 +156,11 @@
 }
 
 - (IBAction)eraserPressed:(id)sender {
+    
+    red = 255.0/255.0;
+    green = 255.0/255.0;
+    blue = 255.0/255.0;
+    opacity = 1.0;
 }
 
 - (IBAction)reset:(id)sender {

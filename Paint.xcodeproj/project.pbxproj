@@ -66,6 +66,8 @@
 		07991BF8189CD4EB00BD2C99 /* width.png in Resources */ = {isa = PBXBuildFile; fileRef = 07991BCD189CD4EB00BD2C99 /* width.png */; };
 		07991BF9189CD4EB00BD2C99 /* Yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 07991BCE189CD4EB00BD2C99 /* Yellow.png */; };
 		07991BFA189CD4EB00BD2C99 /* Yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 07991BCE189CD4EB00BD2C99 /* Yellow.png */; };
+		07991BFD189CF3E000BD2C99 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07991BFC189CF3E000BD2C99 /* SettingViewController.m */; };
+		07991BFE189CF3E000BD2C99 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07991BFC189CF3E000BD2C99 /* SettingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,6 +123,8 @@
 		07991BCC189CD4EB00BD2C99 /* thickness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thickness.png; sourceTree = "<group>"; };
 		07991BCD189CD4EB00BD2C99 /* width.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = width.png; sourceTree = "<group>"; };
 		07991BCE189CD4EB00BD2C99 /* Yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yellow.png; sourceTree = "<group>"; };
+		07991BFB189CF3E000BD2C99 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		07991BFC189CF3E000BD2C99 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +155,8 @@
 		074D2BBC189CCFA700AC24FC = {
 			isa = PBXGroup;
 			children = (
+				07991BFB189CF3E000BD2C99 /* SettingViewController.h */,
+				07991BFC189CF3E000BD2C99 /* SettingViewController.m */,
 				074D2BCE189CCFA700AC24FC /* Paint */,
 				074D2BED189CCFA700AC24FC /* PaintTests */,
 				074D2BC7189CCFA700AC24FC /* Frameworks */,
@@ -396,6 +402,7 @@
 				074D2BDF189CCFA700AC24FC /* ViewController.m in Sources */,
 				074D2BD9189CCFA700AC24FC /* AppDelegate.m in Sources */,
 				074D2BD5189CCFA700AC24FC /* main.m in Sources */,
+				07991BFD189CF3E000BD2C99 /* SettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +411,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				074D2BF4189CCFA700AC24FC /* PaintTests.m in Sources */,
+				07991BFE189CF3E000BD2C99 /* SettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
