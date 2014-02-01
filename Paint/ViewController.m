@@ -107,13 +107,14 @@
         case 2:
             red = 255.0/255.0;
             green = 0.0/255.0;
-            blue = 255.0/255.0;
+            blue = 0.0/255.0;
             break;
         
         case 3:
             red = 0.0/255.0;
             green = 0.0/255.0;
             blue = 255.0/255.0;
+            break;
             
         case 4:
             red = 102.0/255.0;
@@ -158,6 +159,8 @@
 }
 
 - (IBAction)reset:(id)sender {
+    
+    self.mainImage.image = nil;
 }
 
 - (IBAction)setting:(id)sender {
