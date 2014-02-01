@@ -11,5 +11,10 @@
 @interface ViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIImageView *mainImage;
 @property (weak, nonatomic) IBOutlet UIImageView *tempDrawImage;
+- (IBAction)pencilPressed:(id)sender;
+- (IBAction)eraserPressed:(id)sender;
+- (IBAction)reset:(id)sender;
+- (IBAction)setting:(id)sender;
+- (IBAction)save:(id)sender;
 
 @end
