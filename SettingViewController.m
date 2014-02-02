@@ -7,8 +7,9 @@
 //
 
 #import "SettingViewController.h"
-
+//書き換え
 @interface SettingViewController ()
+
 - (IBAction)closeSettings:(id)sender;
 
 @end
@@ -46,6 +47,7 @@
 }
 
 - (void)viewWillAppear:(BOOL)animated {
+    
     int redIntValue = self.red *255.0;
     self.redControl.value = redIntValue;
     [self sliderChanged:self.redControl];
@@ -58,13 +60,16 @@
     self.blueControl.value = blueIntValue;
     [self sliderChanged:self.blueControl];
     
+    self.brushControl.value = self.brush;
+    [self sliderChanged:self.brushControl];
+    
     self.opacityControl.value = self.opacity;
     [self sliderChanged:self.opacityControl];
     
 }
 
 - (IBAction)closeSettings:(id)sender {
-    //[self dismissViewControllerAnimated:YES completion:nil];
+    [self dismissViewControllerAnimated:YES completion:nil];
     [self.delegate closeSettings:self];
 }
 

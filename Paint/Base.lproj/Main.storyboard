@@ -209,7 +209,7 @@
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="Etk-C0-iHI"/>
                                     <barButtonItem title="close" id="0mc-32-hng">
                                         <connections>
-                                            <action selector="closeSettings:" destination="Tyf-Ii-BsF" id="g3A-DP-2gh"/>
+                                            <action selector="closeSettings:" destination="Tyf-Ii-BsF" id="zm1-NY-s41"/>
                                         </connections>
                                     </barButtonItem>
                                 </items>
@@ -332,7 +332,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QgO-yL-kvp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="505" y="-34"/>
+            <point key="canvasLocation" x="880" y="-88"/>
         </scene>
     </scenes>
     <resources>

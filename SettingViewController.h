@@ -16,6 +16,7 @@
 
  //追加
 @property (nonatomic,weak)id delegate;
+
 @property CGFloat red;
 @property CGFloat green;
 @property CGFloat blue;
@@ -27,8 +28,10 @@
 @property (weak, nonatomic) IBOutlet UIImageView *opacityPreview;
 @property (weak, nonatomic) IBOutlet UILabel *brushValueLabel;
 @property (weak, nonatomic) IBOutlet UILabel *opacityValueLabel;
+
 @property CGFloat brush;
 @property CGFloat opacity;
+
 @property (weak, nonatomic) IBOutlet UISlider *redControl;
 @property (weak, nonatomic) IBOutlet UISlider *greenControl;
 @property (weak, nonatomic) IBOutlet UISlider *blueControl;
