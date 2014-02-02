@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+//追加
+#import "SettingViewController.h"
+//追加
 @interface ViewController : UIViewController {
     CGPoint lastPoint;
     CGFloat red;

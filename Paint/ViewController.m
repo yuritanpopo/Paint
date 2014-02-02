@@ -87,6 +87,33 @@
     UIGraphicsEndImageContext();
     
 }
+//追加,書き換え
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    
+    SettingViewController *settingsVC = (SettingViewController *)segue.destinationViewController;
+    settingsVC.delegate = self;
+    settingsVC.brush = brush;
+    settingsVC.opacity = opacity;
+    
+    settingsVC.red = red;
+    settingsVC.green = green;
+    settingsVC.blue = blue;
+    
+}
+//追加
+#pragma mark - SettingViewControllerDelegate methods
+
+-(void)closeSettings:(id)sender {
+    
+    brush = ((SettingViewController*)sender).brush;
+    opacity = ((SettingViewController*)sender).opacity;
+    
+    red = ((SettingViewController*)sender).red;
+    green = ((SettingViewController*)sender).green;
+    blue = ((SettingViewController*)sender).blue;
+    
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 
 - (IBAction)pencilPressed:(id)sender {
     UIButton *pressedButton = (UIButton*)sender;
